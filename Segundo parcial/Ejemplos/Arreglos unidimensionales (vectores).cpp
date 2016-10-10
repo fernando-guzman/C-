@@ -27,7 +27,7 @@ int main()
 	// EL ULTIMO ELEMENTO TIENE INDICE n-1
 	
 	//	int n = sizeof(arreglo2);
-	//	cout <<"El ultimo elemento es "<<arreglo2[]<<endl;
+	//	cout <<"El ultimo elemento es "<<arreglo2[n]<<endl;
 
 	return 0;
 }
