@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     /* 
-		ARREGLOS MULTIDIMENSIONALES (MATRICES)
+	ARREGLOS MULTIDIMENSIONALES (MATRICES)
 
             C0  C1  C2
         F0   1   2   3
@@ -21,7 +21,7 @@ int main()
 	int B[FILAS][COLUMNAS];
 	
 	
-	//	Mostrar cómo se ve el arreglo de arriba (imprimir los indices)
+	//	Mostrar cÃ³mo se ve el arreglo de arriba (imprimir los indices)
 	//
 	//	for(int i=0; i<FILAS; i++)
 	//	{
@@ -61,7 +61,7 @@ int main()
 	//
 	//	El valor de las filas y las columnas es el mismo, no
 	//	tiene mucho chiste hacer esto en este ejemplo el resul-
-	//	tado será el mismo.
+	//	tado serÃ¡ el mismo.
 	//
 	//	for(int i = 0; i < FILAS; i++)
 	//	{
