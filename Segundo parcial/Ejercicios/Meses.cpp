@@ -22,5 +22,7 @@ int main()
 	for(int mes = 0; mes < MESES_TOTALES; mes++)
 	{
 		cout<<"Mes "<<mes+1<<": "<<meses[mes]<<endl;
-	}	
+	}
+	
+	return false;	
 }

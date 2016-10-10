@@ -29,5 +29,5 @@ int main()
 	//	int n = sizeof(arreglo2);
 	//	cout <<"El ultimo elemento es "<<arreglo2[n]<<endl;
 
-	return 0;
+	return false;
 }
