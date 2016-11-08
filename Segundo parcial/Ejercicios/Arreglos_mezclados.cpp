@@ -8,14 +8,9 @@
 // Mostrar un arreglo con los valores almacenados
 // en cada arreglo
 
-
-
-
 #include <iostream>
 
 using namespace std;
-
-#define ARREGLOS 2
 
 
 int main()
@@ -77,30 +72,37 @@ int main()
 	
 	elementos_a3 = elementos_a1 + elementos_a2;
 	
-	int A3[elementos_a3], elemento_actual = 0, parte_2_elemento_actual = 0;
+	int A3[elementos_a3], elemento_actual = 0, valor_actual = 0;
 	
 	cout<<"ARREGLO FORMADO"<<endl;
 	
+	
 	while(elemento_actual < elementos_a3)
 	{
-		for(int i = 0; i < elementos_a1; i++)
+		if(valor_actual < elementos_a1)
 		{
-			A3[elemento_actual] = A1[i];
+			cout<<"Asignando "<<A1[valor_actual]<<" a A3"<<'['<<elemento_actual<<']'<<"..."<<endl;
+			A3[elemento_actual] = A1[valor_actual];
 		}
-				
+		else break;
+
+		valor_actual++;
 		elemento_actual++;
 	}
 	
-	parte_2_elemento_actual = elemento_actual;
+	valor_actual = 0;
 	
 	while(elemento_actual < elementos_a3)
 	{
-		for(int i = 0; i < elementos_a3; i++)
+		if(valor_actual < elementos_a2)
 		{
-			cout<<A3[i]<<' ';
+			cout<<"Asignando "<<A2[valor_actual]<<" a A3"<<'['<<elemento_actual<<']'<<"..."<<endl;
+			A3[elemento_actual] = A2[valor_actual];
 		}
-		
-		parte_2_elemento_actual++;
+		else break;
+
+		valor_actual++;
+		elemento_actual++;
 	}
 	
 	for(int i = 0; i < elementos_a3; i++)
